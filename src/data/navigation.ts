@@ -1,3 +1,4 @@
+
 export interface NavItem {
   label: string;
   href: string;
@@ -18,5 +19,6 @@ export const navItems: NavItem[] = [
     ],
   },
   { label: "Visi & Misi", href: "/visi-misi" },
+  { label: "Karya Inovasi", href: "/karya-inovasi" },
   { label: "Kontak", href: "/kontak" },
 ];
